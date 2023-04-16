@@ -1,0 +1,274 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Poppins";
+    scroll-behavior: smooth;
+    transition: all ease .5s;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    max-width: 1360px;
+}
+.head img{
+    height: 700px;
+    /* width: 100%; */
+    filter: brightness(0.3);
+    position: relative;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.432);
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+nav a{
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    padding: 0px 10px;
+}
+.first-sec{
+     position: absolute; 
+     top: 230px;
+     left: 450px;
+     z-index: 3;
+}
+.first-sec h1{
+    text-align: center;
+}
+.pg{
+    text-align: center;
+}
+.first-sec h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    line-height: 55px;
+    overflow: hidden;
+}
+.first-sec p{
+    margin-top: 30px ;
+    color: white;
+}
+.shape{
+    position: absolute;
+    z-index: 1;
+    top: 310px;
+    left: 730px;
+    width: 100px;
+    height: 20px;
+    background-color: #f5325c;
+}
+.second-sec{
+    padding: 80px 300px;
+    /* max-width: 600px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.second-sec h3{
+    font-size: 15px;
+    font-weight: 800;
+}
+.second-sec p{
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.sec-1{
+    margin-left:60px ;
+}
+.sec-2{
+    margin-left:60px ;
+}
+.third-sec{
+    background-color: #e6f8fa;
+    height: 280px;
+}
+.third-sec img{
+    margin-left: 300px;
+}
+.con-tent{
+    position: relative;
+    top: -250px;
+    left: 300px;
+}
+.con-tent h2{
+    font-weight: 800;
+    font-size: 25px;
+}
+.con-tent p{
+    font-weight: 500;
+    font-size: 13px;
+    margin: 25px 0px;
+}
+.con-tent span{
+    font-weight: 800;
+}
+.con-tent a{
+    color: #ffff;
+    padding: 5px 30px;
+    background-color: #f5325c;
+    border-radius:100px ;
+    font-size: 12px;
+}
+.cont-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0px 174px;
+}
+.cont-bottom p{
+    font-weight: 600;
+    font-size: 13px;
+    margin-top: 8px;
+}
+.fourth h2{
+   font-size: 25px;
+   font-weight: 750;
+}
+.fourth{
+    max-width: 380px;
+}
+.fourth p{
+    font-size: 12px;
+    font-weight: 500;
+}
+.pg2{
+    margin-top: 25px;
+    margin-bottom: 2px;
+}
+.fourth-secc{
+    display: flex;
+    align-items: center;
+    padding: 80px 300px;
+    /* justify-content: space-around; */
+}
+.skill-cont{
+    width: 50%;
+    background-color: #e2dcdc;
+}
+.fourth-second{
+    margin-left: 50px;
+}
+.fifth-sec{
+    padding: 80px 0px;
+}
+.fifth-sec img{
+    filter: brightness(0.4);
+}
+.fifth-content h1{
+    text-align: center;
+    max-width: 600px;
+    font-size: 45px;
+    position: relative;
+    top: -230px;
+    left: 400px;
+    color: #ffffff;
+    line-height: 50px;
+    font-weight: 650;
+}
+.maps p{
+    max-width: 250px;
+    line-height: 25px;
+    font-size: 13px;
+    font-weight:600 ;
+    margin-top: 20px;
+}
+.maps h3{
+    font-size: 13px;
+    margin-top: 20px;
+}
+.box{
+    width: 304px;
+    height: 247px;
+    background-color: #8a8585;
+    color: white;
+    border: 1px solid #131212;
+}
+.box h1{
+    font-size: 43px;
+    text-align: center;
+    padding-top: 95px;
+}
+.sixth-sec{
+    display: flex;
+    /* padding: 0px 300px; */
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+.input{
+    width: 400px;
+    height: 10px;
+    margin-top: 15px;
+    padding: 15px;
+}
+.area{
+    width: 400px;
+    margin-top: 15px;
+    padding: 15px;
+    height: 100px;
+}
+.input::placeholder{
+    font-weight: 600;
+    color: black;
+}
+.input{
+    border: 1px solid  #e6f8fa;
+}
+.area::placeholder{
+    font-weight: 600;
+    color: black;
+}
+.area{
+    border: 1px solid  #e6f8fa;
+}
+.contact{
+    max-width: 400px;
+}
+.contact p{
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 20px;
+    max-width: 330px;
+}
+.form{
+    margin-top: 20px;
+}
+.contact a{
+    background-color: #f5325c;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 50px;
+    font-size: 12px;
+}
+.form-btn{
+    margin-top: 20px;
+    background-color: #f5325c;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 50px;
+    font-size: 12px;
+    border: none;
+}
+.rectangle{
+    width: 100%;
+    height: 100px;
+    background-color: #24182e;
+    margin-top: 90px;
+}
+.rectangle img{
+position: relative;
+top: 30px;
+left: 600px;
+}
